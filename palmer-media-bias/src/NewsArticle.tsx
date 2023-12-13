@@ -23,7 +23,7 @@ const NewsArticle: React.FC = () => {
         <article>
           <div className="image-container">
             <div className="image-overlay"></div>
-            <img src="Palmer Report.png" alt="Article"/>
+            <img src="palmer report.png" alt="Article"/>
           </div>
 
             
