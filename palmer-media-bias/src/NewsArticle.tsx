@@ -22,7 +22,7 @@ const NewsArticle: React.FC = () => {
         <article>
           <div className="image-container">
             <div className="image-overlay"></div>
-            <img src="/images/palmer report.png" alt="Article"/>
+            <img src="./images/palmer-report.png" alt="Article"/>
           </div>
 
           <div className="content">
@@ -38,7 +38,7 @@ const NewsArticle: React.FC = () => {
             
             <p className="sub">Reliablilty</p>
             <div className="image-container">
-            <img src="trump loser.png" alt="Trump" />
+            <img src="./images/trump-loser.png" alt="Trump" />
             </div>
 
             <p className='info'>Founded in 2016 by Bill Palmer, 
