@@ -11,7 +11,6 @@ const NewsArticle: React.FC = () => {
 
         </div>
       </nav>
-
       <div className="article-container">
         <header>
           <h1>Critical Analysis Unveils Concerns: Assessing the Credibility of Palmer Report as a News Source</h1>
@@ -23,7 +22,7 @@ const NewsArticle: React.FC = () => {
         <article>
           <div className="image-container">
             <div className="image-overlay"></div>
-            <img src="palmer report.png" alt="Article"/>
+            <img src="/images/palmer report.png" alt="Article"/>
           </div>
 
           <div className="content">
