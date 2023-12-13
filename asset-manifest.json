@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/palmer-media-bias/static/css/main.b74dd44b.css",
-    "main.js": "/palmer-media-bias/static/js/main.2dbeba88.js",
+    "main.js": "/palmer-media-bias/static/js/main.fc164d18.js",
     "index.html": "/palmer-media-bias/index.html",
     "main.b74dd44b.css.map": "/palmer-media-bias/static/css/main.b74dd44b.css.map",
-    "main.2dbeba88.js.map": "/palmer-media-bias/static/js/main.2dbeba88.js.map"
+    "main.fc164d18.js.map": "/palmer-media-bias/static/js/main.fc164d18.js.map"
   },
   "entrypoints": [
     "static/css/main.b74dd44b.css",
-    "static/js/main.2dbeba88.js"
+    "static/js/main.fc164d18.js"
   ]
 }
