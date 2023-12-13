@@ -23,10 +23,9 @@ const NewsArticle: React.FC = () => {
         <article>
           <div className="image-container">
             <div className="image-overlay"></div>
-            <img src="palmer report.png" alt="Article"/>
+            <img src={require('./palmer report.png')?.default} alt="Article"/>
           </div>
 
-            
           <div className="content">
             <p className='info'>Accused website Palmer Report has been suspected by RHHS Fake News outlet as an unreliable source of media. 
                 The website was confimred for making unsubstantiated or false claims that favors certain political viewpoints. </p>
