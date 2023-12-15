@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/palmer-media-bias/static/css/main.b74dd44b.css",
-    "main.js": "/palmer-media-bias/static/js/main.84a96e2d.js",
+    "main.js": "/palmer-media-bias/static/js/main.7e12db65.js",
     "static/media/palmer-bias.png": "/palmer-media-bias/static/media/palmer-bias.37597173c1a3e15d1dc0.png",
     "static/media/trump-loser.png": "/palmer-media-bias/static/media/trump-loser.c88ac7df3103fbcd4222.png",
     "static/media/palmer-report.png": "/palmer-media-bias/static/media/palmer-report.93400afe486c76198af8.png",
     "index.html": "/palmer-media-bias/index.html",
     "main.b74dd44b.css.map": "/palmer-media-bias/static/css/main.b74dd44b.css.map",
-    "main.84a96e2d.js.map": "/palmer-media-bias/static/js/main.84a96e2d.js.map"
+    "main.7e12db65.js.map": "/palmer-media-bias/static/js/main.7e12db65.js.map"
   },
   "entrypoints": [
     "static/css/main.b74dd44b.css",
-    "static/js/main.84a96e2d.js"
+    "static/js/main.7e12db65.js"
   ]
 }
