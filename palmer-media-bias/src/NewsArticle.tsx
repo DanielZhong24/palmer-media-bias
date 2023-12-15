@@ -5,12 +5,21 @@ import './NewsArticle.css';
 const NewsArticle: React.FC = () => {
   return (
     <div className="news-page">
-      <nav className="navbar navbar-dark bg-dark">
-        <div className="container">
-          <a className="navbar-brand" href="#">RHHS Fake News Outlet</a>
-
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div className="col"></div>
+        <a className="navbar-brand" href="#">RHHS Fake News Outlet</a>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div className="navbar-nav">
+            <a className="nav-item nav-link active" href="#">Home</a>
+            <a className="nav-item nav-link" href="#">About</a>
+            <a className="nav-item nav-link" href="#">Works Cited</a>
+          </div>
         </div>
       </nav>
+
       <div className="article-container">
         <header>
           <h1>Critical Analysis Unveils Concerns: Assessing the Credibility of Palmer Report as a News Source</h1>
@@ -27,7 +36,7 @@ const NewsArticle: React.FC = () => {
 
           <div className="content">
             <p className='info'>Accused website Palmer Report has been suspected by RHHS Fake News outlet as an unreliable source of media. 
-                The website was confimred for making unsubstantiated or false claims that favors certain political viewpoints. </p>
+                The website was confimred for making unsubstantiated or false claims that favors Liberal and progressive political viewpoints. </p>
             
             <p className='info'>A reasearch evaluated by very credibale scholar, Daniel Zhong from RHHS, pointed out the low credibility of Palmer Report. </p>
             
@@ -55,7 +64,7 @@ const NewsArticle: React.FC = () => {
              2016 American President Election was rigged
              </a>
              &nbsp;and and falsely claimed&nbsp; 
-             <a href="">5000 Trump votes in Wisconsin were disqualified.</a>&nbsp; Worth noting all articles were authored by Bill Palmer.
+             <a href="">5000 Trump votes in Wisconsin were disqualified.</a>&nbsp; Worth noting that all articles on this site are authored by Bill Palmer.
             </p>
             <p className="info">“Palmer Report is not a reliable source for daily news and information.” said Daniel Zhong.</p>
             <p className="info">Daniel Zhong also noted that Palmer Report focuses on events that “benefits the left wing.” And through an analysis on the website’s comment section, the organisation’s targeted audiences are “more likely” to be readers who have strong support for the Democrats, according to Zhong. </p>
