@@ -29,7 +29,7 @@ const NewsArticle: React.FC = () => {
             <p className='info'>Accused website Palmer Report has been suspected by RHHS Fake News outlet as an unreliable source of media. 
                 The website was confimred for making unsubstantiated or false claims that favors certain political viewpoints. </p>
             
-            <p className='info'>A reasearched evaluated by very credibale scholar, Daniel Zhong from RHHS, pointed out the low credibility of Palmer Report. </p>
+            <p className='info'>A reasearch evaluated by very credibale scholar, Daniel Zhong from RHHS, pointed out the low credibility of Palmer Report. </p>
             
             <p className='info'>"Palmer Report has drawn scrutiny due to its observed deficiencies, 
                 encompassing a discernible lack of reliability, 
