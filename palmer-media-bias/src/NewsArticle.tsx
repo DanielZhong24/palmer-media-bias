@@ -159,14 +159,37 @@ const NewsArticle: React.FC = () => {
             <h2>Credible scholar Daniel Zhong was found to be stressing over an English assigment over the weekend...</h2>
             <p>RHHS, December 17, 2023.</p>
           </div>
+          <div className="news-box">
+            <h2>Justin Min got food poisoning after consuming mass amount of food.</h2>
+            <p>RHHS, December 17, 2023.</p>
+          </div>
+          <div className="news-box">
+            <h2>New Fortnite champion - Arie Xia from RHHS.</h2>
+            <p>RHHS, December 17, 2023.</p>
+          </div>
         </div>
       </div>
-      
+      <div className="fake-ads">
+      {/* Fake Ad 1 */}
+      <div className="fake-ad">
+        <img src={require("./images/conservative.png")} alt="Fake Ad 1" />
+        <h3>Conservative Chronicles Magazine</h3>
+        <p>Stay informed with conservative perspectives! Subscribe to our magazine for insightful articles and analysis on current political affairs.</p>
+        <a href="#" className="ad-link">Subscribe Now</a>
+      </div>
 
-      <footer>
+      {/* Fake Ad 2 */}
+      <div className="fake-ad">
+        <img src={require("./images/liberal.png")} alt="Fake Ad 2" />
+        <h3>Progressive Insights Podcast</h3>
+        <p>Explore progressive viewpoints on our podcast. Engage in thoughtful discussions on social justice, environmental issues, and more.</p>
+        <a href="#" className="ad-link">Listen Here</a>
+      </div>
+    </div>
+    <footer>
           <p>&copy; 2023 RHHS Fake News Outlet Outlet. All rights reserved.</p>
         </footer>
-    </div>
+  </div>
   );
 };
 

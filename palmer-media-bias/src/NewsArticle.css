@@ -158,3 +158,49 @@ footer {
   color: #555;
   line-height: 1.4;
 }
+.fake-ads {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+.fake-ad {
+  width: 30%;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.fake-ad:hover {
+  transform: translateY(-5px);
+}
+
+.fake-ad img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.fake-ad h3 {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.fake-ad p {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.fake-ad img {
+  width: 200px; /* Set your desired width */
+  height: 150px; /* Set your desired height */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  border-radius: 8px; /* Add border-radius for a rounded appearance, adjust as needed */
+}
