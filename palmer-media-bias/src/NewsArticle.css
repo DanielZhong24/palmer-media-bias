@@ -101,3 +101,15 @@ footer {
   word-spacing: normal;
   color:black;
 }
+
+.music-player {
+  margin-top: 30px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.music-player audio {
+  margin-bottom: 10px;
+}

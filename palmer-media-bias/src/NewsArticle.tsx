@@ -1,24 +1,45 @@
 // src/components/NewsArticle.tsx
-import React from 'react';
+import React, {useRef,useEffect} from 'react';
 import './NewsArticle.css';
-
 const NewsArticle: React.FC = () => {
+  const audioRef = useRef<HTMLAudioElement>(null);
+  const audioPath = require("./images/jojosiwa.mp3");
+
+
+  useEffect(() => {
+    // Set default volume
+    if (audioRef.current) {
+      audioRef.current.volume = 0.05; // Adjust the volume value as needed
+    }
+
+    // Autoplay when the component mounts
+    if (audioRef.current) {
+      audioRef.current.play().catch(error => {
+        // Autoplay might be blocked by the browser, handle the error
+        console.error('Autoplay failed:', error);
+      });
+    }
+  }, []);
+
   return (
+    
     <div className="news-page">
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div className="col"></div>
+        <div className="col-sm-1"></div>
         <a className="navbar-brand" href="#">RHHS Fake News Outlet</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav">
-            <a className="nav-item nav-link active" href="#">Home</a>
-            <a className="nav-item nav-link" href="#">About</a>
-            <a className="nav-item nav-link" href="#">Works Cited</a>
-          </div>
-        </div>
+
       </nav>
+      <div className="music-player">
+        Listen to some nice music while reading!
+          <audio ref={audioRef} controls>
+            <source src={audioPath} type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+   
 
       <div className="article-container">
         <header>
@@ -77,7 +98,7 @@ const NewsArticle: React.FC = () => {
             </p>
 
             <p className="info">As of December 14, 2023, Trump finds himself in the crosshairs of a $250 million civil lawsuit in New York, with accusations from New York Attorney General Letitia James suggesting that Trump manipulated his personal fortune to secure victory in the 2016 election. Jack Smith, an American attorney currently serving as the Special Counsel for the United States Department of Justice, was appointed by U.S. Attorney General Merrick Garland to lead independent investigations into Trump's actions.
-            <a href="https://www.reuters.com/world/us/judge-rejects-trump-immunity-claim-federal-2020-election-case-2023-12-02/"><span>(Reported by Reuters)</span></a>
+            <a href="https://www.reuters.com/world/us/judge-rejects-trump-immunity-claim-federal-2020-election-case-2023-12-02/" target='_blank'><span>(Reported by Reuters)</span></a>
             </p>
 
             <p className="info">Trump's claim of presidential immunity suffered a blow as the Federal appeals court denied it, preventing him from defending his cases.</p>
@@ -93,6 +114,10 @@ const NewsArticle: React.FC = () => {
             <p className="info">Zhong argues that the evidence presented in the article is poorly balanced and heavily biased, that there is a “lack of variety in the evidence,” and that the proofs are “not sufficient for supporting the arguments.” He thinks that the type of evidence used was ineffective and untrustworthy.</p>
           
             <p className="sub">Objectivity</p>
+            <div className="image-container">            
+              <img src={require("./images/palmer-social.png")} alt="" />
+            </div>
+
             <p className="info">Zhong also points out, "The article also has a lack of supporting evidence on the opposing perspective, which damages the overall quality of the writing.”</p>
             <p className="info">The article, Donald Trump's incoherently bizarre Truth Social meltdown after Jack, proved Bill Palmer’s bias because he did not subjectively provide the perspectives of both sides of the issue.</p>
             <p className="info">No evidence was included in Bill’s article that represented Trump’s perspective; instead, Bill utilized the lack of information and bashed Donald Trump.</p>
