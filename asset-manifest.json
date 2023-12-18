@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/palmer-media-bias/static/css/main.650a9c57.css",
-    "main.js": "/palmer-media-bias/static/js/main.cafb9557.js",
+    "main.css": "/palmer-media-bias/static/css/main.352cd23e.css",
+    "main.js": "/palmer-media-bias/static/js/main.0c203648.js",
     "static/media/jojosiwa.mp3": "/palmer-media-bias/static/media/jojosiwa.caef00739e13a6f7f382.mp3",
+    "static/media/conservative.png": "/palmer-media-bias/static/media/conservative.fd36aadba8a18cb7b4d9.png",
+    "static/media/liberal.png": "/palmer-media-bias/static/media/liberal.f7f4d05ed54c061d9284.png",
     "static/media/palmer-bias.png": "/palmer-media-bias/static/media/palmer-bias.37597173c1a3e15d1dc0.png",
     "static/media/trump-loser.png": "/palmer-media-bias/static/media/trump-loser.c88ac7df3103fbcd4222.png",
     "static/media/palmer-social.png": "/palmer-media-bias/static/media/palmer-social.3424e51952400a887710.png",
     "static/media/palmer-report.png": "/palmer-media-bias/static/media/palmer-report.93400afe486c76198af8.png",
     "index.html": "/palmer-media-bias/index.html",
-    "main.650a9c57.css.map": "/palmer-media-bias/static/css/main.650a9c57.css.map",
-    "main.cafb9557.js.map": "/palmer-media-bias/static/js/main.cafb9557.js.map"
+    "main.352cd23e.css.map": "/palmer-media-bias/static/css/main.352cd23e.css.map",
+    "main.0c203648.js.map": "/palmer-media-bias/static/js/main.0c203648.js.map"
   },
   "entrypoints": [
-    "static/css/main.650a9c57.css",
-    "static/js/main.cafb9557.js"
+    "static/css/main.352cd23e.css",
+    "static/js/main.0c203648.js"
   ]
 }
