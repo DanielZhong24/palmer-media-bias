@@ -36,6 +36,7 @@ body {
   margin: 20px auto;
   border: 1px solid #ddd;
   max-height: auto; /* Set a maximum height for the container */
+  margin-right: 100px;
 }
 
 header {
@@ -112,4 +113,48 @@ footer {
 
 .music-player audio {
   margin-bottom: 10px;
+}
+.content-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-container {
+  width: 70%;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.news-boxes-container {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-box {
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.news-box:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.news-box h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.news-box p {
+  color: #555;
+  line-height: 1.4;
 }
