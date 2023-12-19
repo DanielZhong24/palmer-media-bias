@@ -67,7 +67,7 @@ const NewsArticle: React.FC = () => {
             </div>
 
             <div className="content">
-              <p className='info'>The accused website, Palmer Report, has been suspected by the RHHS Fake News outlet as an unreliable source of media. The website was confirmed for making unsubstantiated or false claims that favour liberal and progressive viewpoints.</p>
+              <p className='info'>The accused website, Palmer Report, had been suspected by the RHHS Fake News outlet as an unreliable source of media. The website was confirmed for making unsubstantiated or false claims that favour liberal and progressive viewpoints.</p>
               
               <p className='info'>The research evaluated by a very credible scholar, Daniel Zhong from RHHS, pointed out the low credibility of the Palmer Report.</p>
               
@@ -81,7 +81,7 @@ const NewsArticle: React.FC = () => {
               <img src={require("./images/trump-loser.png")} alt="Trump" />
               </div>
 
-              <p className='info'>Founded in 2016 by Bill Palmer, Palmer Report is under scrutiny for its credibility due to its founder's prior association with the hyperpartisan blog Daily News Bin. Categorized by the Berkman Klein Center for Internet & Society at Harvard University as part of a set of "newer highly partisan sites farther left on the spectrum" than "the mainstays of liberal media" such as the Huffington Post, Vox, and Slate.
+              <p className='info'>Founded in 2016 by Bill Palmer, Palmer Report was under scrutiny for its credibility due to its founder's prior association with the hyperpartisan blog Daily News Bin, categorized by the Berkman Klein Center for Internet & Society at Harvard University as part of a set of "newer highly partisan sites farther left on the spectrum" than "the mainstays of liberal media" such as the Huffington Post, Vox, and Slate.
               </p>
 
               <p className="info">
@@ -91,10 +91,10 @@ const NewsArticle: React.FC = () => {
               2016 American President Election was rigged
               </a>
               &nbsp;and falsely claimed&nbsp; 
-              <a href="">5000 Trump votes in Wisconsin were disqualified.</a>&nbsp; Worth noting that all articles on this site are authored by Bill Palmer.
+              <a href="">5000 Trump votes in Wisconsin as disqualified.</a>&nbsp; Worth noting that all articles on this site are authored by Bill Palmer.
               </p>
               <p className="info">“Palmer Report is not a reliable source for daily news and information," said Daniel Zhong.</p>
-              <p className="info">Daniel Zhong also noted that Palmer Report focuses on events that “benefit the left wing.” And through an analysis of the website’s comment section, the organization’s targeted audiences are “more likely” to be readers who have strong support for the Democrats, according to Zhong.</p>
+              <p className="info">Daniel Zhong also noted that Palmer Report focused on events that “benefit the left wing.” And through an analysis of the website’s comment section, the organization’s targeted audiences are “more likely” to be readers who have strong support for the Democrats, according to Zhong.</p>
               <p className="info">To conclude, Palmer Report and Bill Palmer are heavily criticized for their perceived bias toward the Democrats, and readers should be aware that Palmer Report might not provide accurate and subjective news articles.</p>
 
               <p className="sub">Balance</p>
