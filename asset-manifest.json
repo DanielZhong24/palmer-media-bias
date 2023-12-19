@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/palmer-media-bias/static/css/main.50cb1c76.css",
-    "main.js": "/palmer-media-bias/static/js/main.abd0a767.js",
+    "main.js": "/palmer-media-bias/static/js/main.2371fe29.js",
     "static/media/jojosiwa.mp3": "/palmer-media-bias/static/media/jojosiwa.caef00739e13a6f7f382.mp3",
     "static/media/conservative.png": "/palmer-media-bias/static/media/conservative.fd36aadba8a18cb7b4d9.png",
     "static/media/liberal.png": "/palmer-media-bias/static/media/liberal.f7f4d05ed54c061d9284.png",
@@ -11,10 +11,10 @@
     "static/media/palmer-report.png": "/palmer-media-bias/static/media/palmer-report.93400afe486c76198af8.png",
     "index.html": "/palmer-media-bias/index.html",
     "main.50cb1c76.css.map": "/palmer-media-bias/static/css/main.50cb1c76.css.map",
-    "main.abd0a767.js.map": "/palmer-media-bias/static/js/main.abd0a767.js.map"
+    "main.2371fe29.js.map": "/palmer-media-bias/static/js/main.2371fe29.js.map"
   },
   "entrypoints": [
     "static/css/main.50cb1c76.css",
-    "static/js/main.abd0a767.js"
+    "static/js/main.2371fe29.js"
   ]
 }
