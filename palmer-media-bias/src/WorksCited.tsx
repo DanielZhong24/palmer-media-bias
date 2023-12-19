@@ -7,19 +7,14 @@ const WorksCited: React.FC = () => {
     <div className="works-cited">
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="col-sm-1"></div>
-        <a className="navbar-brand" href="/palmer-media-bias/news-page">RHHS Fake News Outlet</a>
+        <a className="navbar-brand" href="#/palmer-media-bias/news-page">RHHS Fake News Outlet</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="/palmer-media-bias/news-page">
-                Home
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/palmer-media-bias/works-cited">
+              <a className="nav-link" href="#/palmer-media-bias/works-cited">
                 Works Cited
               </a>
             </li>

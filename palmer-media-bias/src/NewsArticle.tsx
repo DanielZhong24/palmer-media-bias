@@ -34,12 +34,7 @@ const NewsArticle: React.FC = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="/palmer-media-bias/news-page">
-                Home
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/palmer-media-bias/works-cited">
+              <a className="nav-link" href="#/palmer-media-bias/works-cited">
                 Works Cited
               </a>
             </li>
