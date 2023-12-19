@@ -1,6 +1,6 @@
 import React from 'react';
 import './WorksCited.css'; // Import your CSS file
-
+import './NewsArticle.css';
 const WorksCited: React.FC = () => {
   return (
     
