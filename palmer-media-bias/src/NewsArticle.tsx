@@ -1,6 +1,7 @@
 // src/components/NewsArticle.tsx
 import React, {useRef,useEffect} from 'react';
 import './NewsArticle.css';
+import {NavLink} from 'react-router-dom';
 const NewsArticle: React.FC = () => {
   const audioRef = useRef<HTMLAudioElement>(null);
   const audioPath = require("./images/jojosiwa.mp3");
@@ -26,12 +27,27 @@ const NewsArticle: React.FC = () => {
     <div className="news-page">
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="col-sm-1"></div>
-        <a className="navbar-brand" href="#">RHHS Fake News Outlet</a>
+        <a className="navbar-brand" href="/palmer-media-bias/news-page">RHHS Fake News Outlet</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a className="nav-link" href="/palmer-media-bias/news-page">
+                Home
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/palmer-media-bias/works-cited">
+                Works Cited
+              </a>
+            </li>
+            {/* Add more pages as needed */}
+          </ul>
+        </div>      
       </nav>
+
       <div className="music-player">
         Listen to some nice music while reading!
           <audio ref={audioRef} controls>
@@ -94,11 +110,11 @@ const NewsArticle: React.FC = () => {
               <p className="info">To further examine the Palmer Report, 
               Zhong picked out a recent article from the website for analysis, titled&nbsp;
               <a href="https://www.palmerreport.com/analysis/donald-trump-has-incoherently-bizarre-truth-social-meltdown-after-jack-smith-gets-the-best-of-him/53568/" target="_blank">
-                <em>Donald Trump has incoherently bizarre Truth Social meltdown after Jack Smith gets the best of him</em></a>.
+                <em>Donald Trump has incoherently bizarre Truth Social meltdown after Jack Smith gets the best of him</em></a>&nbsp;<span>(Palmer)</span>.
               </p>
 
-              <p className="info">As of December 14, 2023, Trump finds himself in the crosshairs of a $250 million civil lawsuit in New York, with accusations from New York Attorney General Letitia James suggesting that Trump manipulated his personal fortune to secure victory in the 2016 election. Jack Smith, an American attorney currently serving as the Special Counsel for the United States Department of Justice, was appointed by U.S. Attorney General Merrick Garland to lead independent investigations into Trump's actions.
-              <a href="https://www.reuters.com/world/us/judge-rejects-trump-immunity-claim-federal-2020-election-case-2023-12-02/" target='_blank'><span>(Reported by Reuters)</span></a>
+              <p className="info">As of December 14, 2023, Trump finds himself in the crosshairs of a $250 million civil lawsuit in New York, with accusations from New York Attorney General Letitia James suggesting that Trump manipulated his personal fortune to secure victory in the 2016 election. Jack Smith, an American attorney currently serving as the Special Counsel for the United States Department of Justice, was appointed by U.S. Attorney General Merrick Garland to lead independent investigations into Trump's actions&nbsp;
+              <a href="https://www.reuters.com/world/us/judge-rejects-trump-immunity-claim-federal-2020-election-case-2023-12-02/" target='_blank'><span>(Reuters).</span></a>
               </p>
 
               <p className="info">Trump's claim of presidential immunity suffered a blow as the Federal appeals court denied it, preventing him from defending his cases.</p>

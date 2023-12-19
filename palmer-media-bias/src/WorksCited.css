@@ -1,0 +1,25 @@
+.works-cited {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+.works-cited h1{
+    text-align: center;
+}
+  
+  .citation {
+    margin-bottom: 20px;
+  }
+  
+  .citation p {
+    text-indent: -20px; /* Adjust this value to control the indent for the second line and subsequent lines */
+    margin-left: 20px; /* Remove top margin for the first line */
+  }
+
+
+  .footer {
+    margin-top: 30px;
+    font-style: italic;
+    color: #666;
+  }
+  
